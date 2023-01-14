@@ -1,0 +1,33 @@
+.path{
+    margin-bottom: 112px;
+    align-self: start;
+    display: block;
+    width: 100%;
+    .path__name {
+        font-size: 32px;
+        font-weight: 600;
+        &::before{
+            content: "/";
+            color: hsl(287 60% 65%);
+        }
+    }
+    .path__description {
+        color: hsl(219 14% 71%);
+        margin-top: 16px;
+        font-size: 16px;
+    }
+}
+
+.small{
+    margin-top: 112px;
+    .project-list{
+        margin-top: 50px;
+        gap: 20px;
+    }
+}
+.paddingam{
+    margin-bottom: 135px;
+}
+.paddingam1{
+    margin-bottom: 175px;
+}
