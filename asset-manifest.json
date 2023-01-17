@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/elias-/static/css/main.5a3a345e.css",
+    "main.js": "/elias-/static/js/main.e9a48ccc.js",
+    "index.html": "/elias-/index.html",
+    "main.5a3a345e.css.map": "/elias-/static/css/main.5a3a345e.css.map",
+    "main.e9a48ccc.js.map": "/elias-/static/js/main.e9a48ccc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a3a345e.css",
+    "static/js/main.e9a48ccc.js"
+  ]
+}
