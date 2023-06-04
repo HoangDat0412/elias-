@@ -1,0 +1,27 @@
+[
+    {
+        "title":"Languages",
+        "skills":[
+            "TypeScript","JavaScript","Java","C++"
+        ]
+    },
+    {
+        "title":"Databases",
+        "skills":[
+            "MySQL","SQL"
+        ]
+    },
+    {
+        "title":"Other",
+        "skills":[
+            "HTML","CSS","SASS","SCSS","GitHub"
+        ]
+    },
+    {
+        "title":"Frameworks",
+        "skills":[
+            "ReactJS","NodeJS","TailwindCSS","BootStrap"
+        ]
+    }
+
+]

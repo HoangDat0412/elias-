@@ -15,28 +15,21 @@ function Footer() {
                     alt="logo"
                     className="logo__img"
                   ></img>
-                  <div className="logo__name">Elias</div>
+                  <div className="logo__name">DAT</div>
                 </div>
                 <a className="footer__email" href="mailto:elias@elias-dev.ml">
-                  elias@elias-dev.ml
+                  hoang2811dat@gmail.com
                 </a>
               </div>
 
               <p className="footer__description">
-                Web designer and front-end developer based in Ukraine
+                Web designer and front-end developer based in VietNam
               </p>
             </div>
             <div className={classNames("footer__media","col-12","col-md-4")}>
               <div className="footer__title">Media</div>
               <div className="footer__list">
-                <a href="https://figma.com/@elias_dev" class="media">
-                  <img
-                    src="https://elias-dev.ml/images/icons/figma.svg"
-                    alt="figma"
-                    class="media__icon"
-                  ></img>
-                </a>
-                <a href="https://github.com/EliasDevis" class="media">
+                <a href="https://github.com/HoangDat0412" class="media">
                   <img
                     src="https://elias-dev.ml/images/icons/github.svg"
                     alt="github"

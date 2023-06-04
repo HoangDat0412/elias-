@@ -19,15 +19,11 @@ function About() {
         </div>
         <div className={classNames("about__text", "col-12","col-md-7")}>
           <p className="about__description">
-            I’m a self-taught front-end developer based in Kyiv, Ukraine. I can
-            develop responsive websites from scratch and raise them into modern
-            user-friendly web experiences.{" "}
+          I am a 3rd year student at Vietnam National University-International School.I was born in 2003. My major is informatics and computer engineering..{" "}
           </p>
 
           <p className="about__description">
-            Transforming my creativity and knowledge into a websites has been my
-            passion for over a year. I have been helping various clients to
-            establish their presence online.{" "}
+          I taught myself how to build a website, I love to code and I find it very engaging. My goal is to be able to learn more knowledge and be able to apply it to do big projects{" "}
           </p>
 
           <p className="about__description">
@@ -39,22 +35,21 @@ function About() {
 
       <section className="skills">
         <h2 className="h2">skills</h2>
-        <div className={classNames("skills__content","row")}>
+        <div className={classNames("skills__content","row","justify-content-center")}>
           <div className={classNames("skill-block","col-12","col-sm-6","col-md-3")}>
             <div className="skill-block__name">Languages</div>
             <ul className="skill-block__list">
               <li className="skill-block__skill">TypeScript</li>
               <li className="skill-block__skill">JavaScript</li>
-              <li className="skill-block__skill">Python</li>
+              <li className="skill-block__skill">Java</li>
             </ul>
           </div>
 
           <div className={classNames("skill-block","col-12","col-sm-6","col-md-3")}>
             <div className="skill-block__name">Databases</div>
             <ul className="skill-block__list">
-              <li className="skill-block__skill">SQLite</li>
-              <li className="skill-block__skill">MongoDB</li>
-              <li className="skill-block__skill">PostgreSQL</li>
+              <li className="skill-block__skill">MySQL</li>
+              <li className="skill-block__skill">SQL</li>
             </ul>
           </div>
 
@@ -65,11 +60,7 @@ function About() {
               <li className="skill-block__skill">CSS</li>
               <li className="skill-block__skill">SASS</li>
               <li className="skill-block__skill">SCSS</li>
-              <li className="skill-block__skill">EJS</li>
-              <li className="skill-block__skill">Jinja2</li>
               <li className="skill-block__skill">Node.js</li>
-              <li className="skill-block__skill">Less</li>
-              <li className="skill-block__skill">Pug</li>
             </ul>
           </div>
 
@@ -77,8 +68,6 @@ function About() {
             <div className="skill-block__name">Tools</div>
             <ul className="skill-block__list">
               <li className="skill-block__skill">VSCode</li>
-              <li className="skill-block__skill">NeoVim</li>
-              <li className="skill-block__skill">Figma</li>
               <li className="skill-block__skill">Git &amp; GitHub</li>
               <li className="skill-block__skill">FontAwesome</li>
             </ul>
@@ -88,13 +77,7 @@ function About() {
             <div className="skill-block__name">Frameworks</div>
             <ul className="skill-block__list">
               <li className="skill-block__skill">React</li>
-              <li className="skill-block__skill">Vue</li>
-              <li className="skill-block__skill">Disnake</li>
-              <li className="skill-block__skill">Discord.js</li>
-              <li className="skill-block__skill">Flask</li>
-              <li className="skill-block__skill">Quart</li>
               <li className="skill-block__skill">Express</li>
-              <li className="skill-block__skill">Gulp</li>
             </ul>
           </div>
         </div>
@@ -107,15 +90,14 @@ function About() {
                     
                         <li class="fact">I like winter more than summer</li>
                     
-                        <li class="fact">I often bike with my friends</li>
+                        <li class="fact">I often swimming  with my friends</li>
                     
-                        <li class="fact">I like pizza and pasta</li>
-                    
-                        <li class="fact">I was in Egypt, Poland and Turkey</li>
+                        <li class="fact">I like phở and thịt kho</li>
                     
                         <li class="fact">I’m still studing in school</li>
                     
-                        <li class="fact">My favorite movie is The Green Mile</li>
+                        <li class="fact">My favorite movie is Harry Potter</li>
+                        
                     
                 </ul>
                 <div class="facts__illustrations">

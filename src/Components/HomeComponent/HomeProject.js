@@ -1,23 +1,21 @@
+import React from 'react'
 import classNames from "classnames";
-import "./Projects.scss";
-import data from "../../data/project.json"
-function Projects() {
-  console.log(data);
+import { NavLink } from 'react-router-dom';
+import dataproject from "../../data/project.json";
+export default function HomeProject() {
   return (
     <div>
-      <div className="path">
-        <h1 className={classNames("h1", "path__name")}>projects</h1>
-        <p className="path__description">All of my projects</p>
-      </div>
-
-      <section className="projects">
+              <section className={classNames("projects", "container-fluid")}>
         <div className="projects__header">
-          <h2 className="project__title1">My project</h2>
+          <h2 className="project__title1">projects</h2>
+          <NavLink className="projects__link" to="/projects">
+            View all {"~~>"}{" "}
+          </NavLink>
         </div>
 
         <div className={classNames("project-list", "row")}>
-          {
-            data.map((item,index)=> (
+        {
+            dataproject.slice(0,3).map((item,index)=> (
               <div key={index} className={classNames("project", "col-lg4","col-6custom","col-12custom", "img-fluid")}>
             <img
               src={item.img}
@@ -48,12 +46,9 @@ function Projects() {
           </div>
             ))
           }
-
         </div>
+
       </section>
-
     </div>
-  );
+  )
 }
-
-export default Projects;
