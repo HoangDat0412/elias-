@@ -37,7 +37,7 @@ export default function Hero() {
           ></img>
 
           <div className="hero__status">
-          Currently, I am studying at <a href="/">VNUIS</a>
+          Currently, I am studying at <a href="https://www.is.vnu.edu.vn/">VNUIS</a>
           </div>
 
           <DotSvg1 />
