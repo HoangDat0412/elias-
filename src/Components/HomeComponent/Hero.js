@@ -3,7 +3,9 @@ import DotSvg1 from "../../Components/sgv/svg1";
 import classNames from "classnames";
 export default function Hero() {
   return (
-    <div>
+    <div style={{
+      width:"100%"
+    }}>
               <section className={classNames("Hero", "row", "container-fluid")}>
         <div className={classNames("col-12", "col-sm-6", "hero__content")}>
           <h1 className="hero__title">
