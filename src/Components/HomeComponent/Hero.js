@@ -12,6 +12,9 @@ export default function Hero() {
     >
       <section className={classNames("Hero", "row", "container-fluid")}>
         <div className={classNames("col-12", "col-sm-6", "hero__content")}>
+        <h1 className="hero__title">
+        Hello guys !
+          </h1>
           <h1 className="hero__title">
             <Typewriter
               options={{
