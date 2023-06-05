@@ -1,22 +1,33 @@
-import React from 'react'
+import React from "react";
 import DotSvg1 from "../../Components/sgv/svg1";
 import classNames from "classnames";
+import Typewriter from "typewriter-effect";
+
 export default function Hero() {
   return (
-    <div style={{
-      width:"100%"
-    }}>
-              <section className={classNames("Hero", "row", "container-fluid")}>
+    <div
+      style={{
+        width: "100%",
+      }}
+    >
+      <section className={classNames("Hero", "row", "container-fluid")}>
         <div className={classNames("col-12", "col-sm-6", "hero__content")}>
           <h1 className="hero__title">
-            I'am is a <span>fullstack developer </span>
+            <Typewriter
+              options={{
+                strings: ["I'am is a fullstack developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+            <span> </span>
           </h1>
           <div className="hero__description">
             My name is Hoàng Tuấn Anh Đạt and I love programming
           </div>
           <a
             className={classNames("button", "button__primary")}
-            href='mailto:hoang2811dat@gmail.com'
+            href="mailto:hoang2811dat@gmail.com"
           >
             Contact ME ##
           </a>
@@ -37,12 +48,13 @@ export default function Hero() {
           ></img>
 
           <div className="hero__status">
-          Currently, I am studying at <a href="https://www.is.vnu.edu.vn/">VNUIS</a>
+            Currently, I am studying at{" "}
+            <a href="https://www.is.vnu.edu.vn/">VNUIS</a>
           </div>
 
           <DotSvg1 />
         </div>
       </section>
     </div>
-  )
+  );
 }
