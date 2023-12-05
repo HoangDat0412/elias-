@@ -14,18 +14,73 @@
             "ReactJS","SASS","BootStrap","JavaScript"
         ],
         "content":"ISTECH",
-        "demo":"https://web-istech.vercel.app/",
+        "demo":"https://www.istech.vn/",
         "github":"https://github.com/tran-tuong/web-istech"
+    },
+    {
+        "img":"./images/bookingticket.png",
+        "techs":[
+            "ReactJS","Redux","Axios","Antd","SASS"
+        ],
+        "content":"Booking ticket",
+        "demo":"https://bookingticket-git-main-hoangdat0412.vercel.app/",
+        "github":"https://github.com/HoangDat0412/bookingticket"
+    },
+    {
+        "img":"./images/taskmanager.png",
+        "techs":[
+            "Node JS","Express JS","MongoDB","Mongoose"
+        ],
+        "content":"Task manager",
+        "demo":"",
+        "github":"https://github.com/HoangDat0412/task-manager"
+    },
+    {
+        "img":"",
+        "techs":[
+            "Node JS","Express JS","MongoDB","Mongoose"
+        ],
+        "content":"Jobs Api",
+        "demo":"",
+        "github":"https://github.com/HoangDat0412/jobs-api"
+    },
+    {
+        "img":"",
+        "techs":[
+            "Node JS","Express JS","MongoDB","Mongoose"
+        ],
+        "content":"Jobs Api",
+        "demo":"",
+        "github":"https://github.com/HoangDat0412/jobs-api"
+    },
+    {
+        "img":"./images/gpt3.png",
+        "techs":[
+            "HTML","CSS"
+        ],
+        "content":"GPT3",
+        "demo":"https://gpt3-teal.vercel.app",
+        "github":"https://github.com/HoangDat0412/gpt3"
     },
     {
         "img":"./images/webthudo.png",
         "techs":[
             "ReactJS","Redux","BootStrap","JavaScript","SASS"
         ],
-        "content":"Web Thử Trang Phục",
+        "content":"Test clothes",
         "demo":"https://miniprojectredux.vercel.app/baitapthudo",
         "github":"https://github.com/HoangDat0412/miniprojectredux"
     },
+    {
+        "img":"./images/todolist.png",
+        "techs":[
+            "ReactJS","SASS","BootStrap","JavaScript"
+        ],
+        "content":"TO DO LIST",
+        "demo":"https://miniprojectredux.vercel.app/todolist",
+        "github":"https://github.com/HoangDat0412/miniprojectredux"
+    },
+
     {
         "img":"./images/udemyclone.png",
         "techs":[
@@ -40,17 +95,8 @@
         "techs":[
             "Redux","BootStrap","JavaScript"
         ],
-        "content":"Game Bầu Cua",
+        "content":"Mini Game",
         "demo":"https://miniprojectredux.vercel.app/baitapgamebaucua",
-        "github":"https://github.com/HoangDat0412/miniprojectredux"
-    },
-       {
-        "img":"./images/todolist.png",
-        "techs":[
-            "ReactJS","SASS","BootStrap","JavaScript"
-        ],
-        "content":"TO DO LIST",
-        "demo":"https://miniprojectredux.vercel.app/todolist",
         "github":"https://github.com/HoangDat0412/miniprojectredux"
     },
     {
@@ -59,7 +105,7 @@
             "HTML","CSS","BootStrap","JavaScript"
         ],
         "content":"PUBGMOD",
-        "demo":"https://web-istech.vercel.app/",
+        "demo":"",
         "github":""
     },
     {
@@ -70,14 +116,5 @@
         "content":"Massive",
         "demo":"",
         "github":"https://github.com/HoangDat0412/massiveweb"
-    },
-    {
-        "img":"./images/mergeproject.png",
-        "techs":[
-            "HTML","CSS","BootStrap","JavaScript"
-        ],
-        "content":"Massive",
-        "demo":"",
-        "github":"https://github.com/HoangDat0412/servicebussinite"
     }
 ]

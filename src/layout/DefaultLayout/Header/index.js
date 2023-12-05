@@ -6,29 +6,14 @@ function Header() {
   return (
     <div className={classNames("Header","container-fluid")}>
 
-      <div className={ classNames("media-header")}>
-        <span className={ classNames("media-header__line")}></span>
-        <div class="media-header__links">
-                    
-        <a href="https://discord.com/users/914240860101681163" class="media">
-            <img src="https://elias-dev.ml/images/icons/discord.svg" alt="discord" class="media__icon"></img>
-        </a>
-        <a href="https://github.com/" class="media">
-            <img src="https://elias-dev.ml/images/icons/github.svg" alt="github" class="media__icon"></img>
-        </a>
-        <a href="mailto:hoang2811dat@gmail.com" class="media">
-            <img src="https://elias-dev.ml/images/icons/email.svg" alt="email" class="media__icon"></img>
-        </a>
-                </div>
 
-      </div>
 
       <nav className={ classNames("navbar","navbar-expand-lg","container-fluid")}>
         <div className="container-xl">
           
-          <a  className={classNames("navbar-brand")} href="#">
-          <img className={classNames('logo-img')} src="https://elias-dev.ml/images/logo.svg" alt="Elias logo"></img>
-          <span className={classNames("logo-name")}>DAT</span>
+          <a  className={classNames("navbar-brand")} href="/">
+ 
+          <span className={classNames("logo-name")}>HTAD</span>
           </a>
 
           <button

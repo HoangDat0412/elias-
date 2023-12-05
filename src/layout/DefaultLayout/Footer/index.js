@@ -10,11 +10,7 @@ function Footer() {
             <div className={classNames("footer__info","col-12","col-md-7")}>
               <div className="footer__header">
                 <div className="logo">
-                  <img
-                    src="https://elias-dev.ml/images/logo.svg"
-                    alt="logo"
-                    className="logo__img"
-                  ></img>
+
                   <div className="logo__name">DAT</div>
                 </div>
                 <a className="footer__email" href="mailto:elias@elias-dev.ml">
@@ -23,7 +19,7 @@ function Footer() {
               </div>
 
               <p className="footer__description">
-                Web designer and front-end developer based in VietNam
+                Happy Happy
               </p>
             </div>
             <div className={classNames("footer__media","col-12","col-md-4")}>
@@ -31,17 +27,17 @@ function Footer() {
               <div className="footer__list">
                 <a href="https://github.com/HoangDat0412" class="media">
                   <img
-                    src="https://elias-dev.ml/images/icons/github.svg"
+                    src="./images/github.png"
                     alt="github"
-                    className="media__icon"
+                    className="media__icon gitimg"
                   ></img>
                 </a>
                 <a
-                  href="https://discord.com/users/914240860101681163"
+                  href="https://www.facebook.com/hoangtuananhdath/"
                   className="media"
                 >
                   <img
-                    src="https://elias-dev.ml/images/icons/discord.svg"
+                    src="./images/facebook.png"
                     alt="discord"
                     className="media__icon"
                   ></img>

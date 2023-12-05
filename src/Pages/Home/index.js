@@ -1,18 +1,21 @@
-import classNames from "classnames";
 import "./Home.scss";
 import Hero from "../../Components/HomeComponent/Hero";
 import DotSvg2 from "../../Components/sgv/svg2";
 import DotSvg3 from "../../Components/sgv/svg3";
 import data from "../../data/skill.json";
 import HomeProject from "../../Components/HomeComponent/HomeProject";
+import { useEffect } from "react";
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="Home_content">
       {/* section hero */}
       <Hero/>
       {/* section qoute*/}
-      <figure className={classNames("quote")}>
+      <figure className="quote">
         <blockquote className="quote__text">
           Your life only gets better when you get better 
         </blockquote>
@@ -21,16 +24,12 @@ function Home() {
       {/* section projects */}
         <HomeProject/>
       {/* section skills*/}
-      <sections className={classNames("skills", "container-fluid")}>
+      <sections className="skills container-fluid">
         <h2 className="h2__skills">skills</h2>
-        <div className={classNames("skills__content", "row")}>
+        <div className="skills__content row">
           <div
-            className={classNames(
-              "skills__illustrations",
-              "illustrations",
-              "col-12",
-              "col-lg-5"
-            )}
+            className="skills__illustrations illustrations col-12 col-lg-5"
+            
           >
             <img
               src="https://elias-dev.ml/images/logo-outline.svg"
@@ -41,18 +40,10 @@ function Home() {
             <DotSvg3 />
           </div>
           <div
-            className={classNames(
-              "skills__list",
-              "col-12",
-              "col-lg-7",
-              "row",
-              "container-fluid",
-              "justify-content-center"
-            )}
-          >
+            className="skills__list col-12 col-lg-7 row container-fluid justify-content-center">
             {data.map((item, index) => {
               return (
-                <div className={classNames("skill-block", "col-12", "col-sm-6")}key={index}>
+                <div className="skill-block  col-sm-6" key={index}>
                   <div className="skill-block__name">{item.title}</div>
                   <ul className="skill-block__list">
                     {item.skills.map((skill, index) => (
@@ -66,8 +57,8 @@ function Home() {
         </div>
       </sections>
       {/* section about*/}
-      <section className={classNames("about", "row", "container-fluid")}>
-        <div className={classNames("about__content", "col-12", "col-md-7")}>
+      <section className="about row container-fluid">
+        <div className="about__content col-12 col-md-7">
           <h2 className="h2">about</h2>
           <div className="about__text">
             <p className="about__description">
@@ -82,42 +73,26 @@ function Home() {
         <img
           src="https://elias-dev.ml/images/about-me.png"
           alt=""
-          className={classNames("about__image", "col-12", "col-md-5")}
+          className="about__image col-12 col-md-5"
         ></img>
       </section>
       {/* section contact*/}
-      <sections className={classNames("contacts", "container-fluid")}>
-        <h2 className={classNames("h2")}>contacts</h2>
-        <div className={classNames("contacts__content", "row")}>
+      <sections className="contacts container-fluid">
+        <h2 className="h2">contacts</h2>
+        <div className="contacts__content row">
           <p
-            className={classNames(
-              "contacts__description",
-              "col-12",
-              "col-lg-8"
-            )}
+            className=
+              "contacts__description col-12 col-lg-8"
+            
           >
             If you have
             other request or question, don’t hesitate to contact me
           </p>
-          <div className={classNames("contacts__media", "col-12", "col-lg-3")}>
+          <div className="contacts__media col-12 col-lg-3">
             <h3 className="contacts__title">Message me here</h3>
             <div className="contacts__list">
-              <a
-                className="contact"
-                href="https://discord.com/users/914240860101681163"
-              >
-                <img
-                  src="https://elias-dev.ml/images/icons/discord.svg"
-                  alt=""
-                ></img>
-                <div className="contact__name">hoangdat2011</div>
-              </a>
 
-              <a className="contact" href="mailto:elias@elias-dev.ml">
-                <img
-                  src="https://elias-dev.ml/images/icons/email.svg"
-                  alt=""
-                ></img>
+              <a className="contact" href="mailto:hoang2811dat@gmail.com">
                 <div className="contact__name">hoang2811dat@gmail.com</div>
               </a>
             </div>

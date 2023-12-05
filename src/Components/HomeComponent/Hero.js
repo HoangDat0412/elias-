@@ -18,7 +18,7 @@ export default function Hero() {
           <h1 className="hero__title">
             <Typewriter
               options={{
-                strings: ["I'am is a fullstack developer"],
+                strings: ["I'am a fullstack developer"],
                 autoStart: true,
                 loop: true,
               }}
@@ -26,7 +26,7 @@ export default function Hero() {
             <span> </span>
           </h1>
           <div className="hero__description">
-            My name is Hoàng Tuấn Anh Đạt and I love programming
+            My name is Hoàng Tuấn Anh Đạt and I love you 
           </div>
           <a
             className={classNames("button", "button__primary")}
@@ -38,14 +38,9 @@ export default function Hero() {
         <div
           className={classNames("col-12", "col-sm-6", "hero__illustrations")}
         >
-          <img
-            src="https://elias-dev.ml/images/logo-outline.svg"
-            alt=""
-            className="hero__logo"
-          ></img>
 
           <img
-            src="https://elias-dev.ml/images/hero.png"
+            src="./images/dat.png"
             alt="Elias"
             className="hero__image"
           ></img>

@@ -1,8 +1,11 @@
 import classNames from "classnames";
 import "./Projects.scss";
 import data from "../../data/project.json"
+import { useEffect } from "react";
 function Projects() {
-  console.log(data);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <div className="path">

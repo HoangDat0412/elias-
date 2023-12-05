@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 import "./About.scss";
 import classNames from "classnames";
 
 function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <div className="path">
@@ -12,7 +16,7 @@ function About() {
       <section className={classNames("about", "row")}>
         <div className={classNames("about__illustrations", "col-12","col-md-4")}>
           <img
-            src="https://elias-dev.ml/images/about-me.png"
+            src="./images/htad1.png"
             alt=""
             className="about__image"
           ></img>
@@ -42,6 +46,8 @@ function About() {
               <li className="skill-block__skill">TypeScript</li>
               <li className="skill-block__skill">JavaScript</li>
               <li className="skill-block__skill">Java</li>
+              <li className="skill-block__skill">C++</li>
+              <li className="skill-block__skill">Python</li>
             </ul>
           </div>
 
@@ -50,6 +56,7 @@ function About() {
             <ul className="skill-block__list">
               <li className="skill-block__skill">MySQL</li>
               <li className="skill-block__skill">SQL</li>
+              <li className="skill-block__skill">MongoDB</li>
             </ul>
           </div>
 
@@ -61,6 +68,7 @@ function About() {
               <li className="skill-block__skill">SASS</li>
               <li className="skill-block__skill">SCSS</li>
               <li className="skill-block__skill">Node.js</li>
+              <li className="skill-block__skill">Redux</li>
             </ul>
           </div>
 
@@ -77,7 +85,8 @@ function About() {
             <div className="skill-block__name">Frameworks</div>
             <ul className="skill-block__list">
               <li className="skill-block__skill">React</li>
-              <li className="skill-block__skill">Express</li>
+              <li className="skill-block__skill">Express JS</li>
+              <li className="skill-block__skill">Nest JS</li>
             </ul>
           </div>
         </div>
@@ -89,15 +98,10 @@ function About() {
                 <ul class="facts__list">
                     
                         <li class="fact">I like winter more than summer</li>
-                    
-                        <li class="fact">I often swimming  with my friends</li>
-                    
                         <li class="fact">I like phở and thịt kho</li>
-                    
                         <li class="fact">I’m still studing in school</li>
-                    
                         <li class="fact">My favorite movie is Harry Potter</li>
-                        
+                        <li class="fact">My favorite song is Perfect</li>
                     
                 </ul>
                 <div class="facts__illustrations">
