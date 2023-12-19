@@ -79,14 +79,14 @@
             gap: 8px;
             font-weight: 500;
             font-size: 16px;
-            &::before{
-                content: '';
-                display: inline-block;
-                height: 16px;
-                width: 16px;
-                background-color: hsl(287 60% 65%/0.1);
-                border: 1px solid hsl(287 60% 65%);
-            }
+            // &::before{
+            //     content: '';
+            //     display: inline-block;
+            //     height: 16px;
+            //     width: 16px;
+            //     background-color: hsl(287 60% 65%/0.1);
+            //     border: 1px solid hsl(287 60% 65%);
+            // }
             a{
                 color: hsl(0 0% 100%);
                 transition: all 0.5s;

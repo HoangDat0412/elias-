@@ -45,15 +45,6 @@
         "github":"https://github.com/HoangDat0412/jobs-api"
     },
     {
-        "img":"",
-        "techs":[
-            "Node JS","Express JS","MongoDB","Mongoose"
-        ],
-        "content":"Jobs Api",
-        "demo":"",
-        "github":"https://github.com/HoangDat0412/jobs-api"
-    },
-    {
         "img":"./images/gpt3.png",
         "techs":[
             "HTML","CSS"

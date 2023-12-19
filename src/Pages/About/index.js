@@ -98,7 +98,6 @@ function About() {
                 <ul class="facts__list">
                     
                         <li class="fact">I like winter more than summer</li>
-                        <li class="fact">I like phở and thịt kho</li>
                         <li class="fact">I’m still studing in school</li>
                         <li class="fact">My favorite movie is Harry Potter</li>
                         <li class="fact">My favorite song is Perfect</li>

@@ -21,11 +21,31 @@ function Home() {
         </blockquote>
         <figcaption className="quote__author">Brian Tracy</figcaption>
       </figure>
-      {/* section projects */}
-        <HomeProject/>
+
+
+{/* section about*/}
+<section className="about row container-fluid">
+        <div className="about__content col-12 col-md-7">
+          <h2 className="h2">about me</h2>
+          <div className="about__text">
+            <p className="about__description">
+            I am a 3rd year student at Vietnam National University-International School.I was born in 2003. My major is informatics and computer engineering.
+            </p>
+            <p className="about__description">
+            I taught myself how to build a website, I love to code and I find it very engaging. My goal is to be able to learn more knowledge and be able to apply it to do big projects
+            </p>
+          </div>
+          <a href="/about-me" className="button">View all -&gt;</a>
+        </div>
+        <img
+          src="https://elias-dev.ml/images/about-me.png"
+          alt=""
+          className="about__image col-12 col-md-5"
+        ></img>
+      </section>
       {/* section skills*/}
       <sections className="skills container-fluid">
-        <h2 className="h2__skills">skills</h2>
+        <h2 className="h2__skills">My skills</h2>
         <div className="skills__content row">
           <div
             className="skills__illustrations illustrations col-12 col-lg-5"
@@ -56,26 +76,11 @@ function Home() {
           </div>
         </div>
       </sections>
-      {/* section about*/}
-      <section className="about row container-fluid">
-        <div className="about__content col-12 col-md-7">
-          <h2 className="h2">about</h2>
-          <div className="about__text">
-            <p className="about__description">
-            I am a 3rd year student at Vietnam National University-International School.I was born in 2003. My major is informatics and computer engineering.
-            </p>
-            <p className="about__description">
-            I taught myself how to build a website, I love to code and I find it very engaging. My goal is to be able to learn more knowledge and be able to apply it to do big projects
-            </p>
-          </div>
-          <a href="/about-me" className="button">View all -&gt;</a>
-        </div>
-        <img
-          src="https://elias-dev.ml/images/about-me.png"
-          alt=""
-          className="about__image col-12 col-md-5"
-        ></img>
-      </section>
+
+      {/* section projects */}
+        <HomeProject/>
+
+      
       {/* section contact*/}
       <sections className="contacts container-fluid">
         <h2 className="h2">contacts</h2>

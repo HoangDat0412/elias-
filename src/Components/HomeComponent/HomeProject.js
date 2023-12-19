@@ -7,7 +7,7 @@ export default function HomeProject() {
     <div>
               <section className={classNames("projects", "container-fluid")}>
         <div className="projects__header">
-          <h2 className="project__title1">projects</h2>
+          <h2 className="project__title1">My projects</h2>
           <NavLink className="projects__link" to="/projects">
             View all {"~~>"}{" "}
           </NavLink>

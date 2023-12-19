@@ -26,7 +26,7 @@ export default function Hero() {
             <span> </span>
           </h1>
           <div className="hero__description">
-            My name is Hoàng Tuấn Anh Đạt and I love you 
+            My name is Hoàng Tuấn Anh Đạt
           </div>
           <a
             className={classNames("button", "button__primary")}

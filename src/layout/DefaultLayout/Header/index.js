@@ -37,16 +37,17 @@ function Header() {
                 </NavLink>
               </a>
               <a  className="nav-item">
+                <NavLink className={ classNames('nav-link')}  id="about" to="/about" >
+                  about-me
+                </NavLink>
+              </a>
+              <a  className="nav-item">
                 <NavLink className={ classNames('nav-link')} id="project" to="/projects">
                   projects
                 </NavLink>
               </a>
 
-              <a  className="nav-item">
-                <NavLink className={ classNames('nav-link')}  id="about" to="/about" >
-                  about-me
-                </NavLink>
-              </a>
+
             </ul>
           </div>
         </div>

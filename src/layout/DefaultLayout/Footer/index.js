@@ -13,7 +13,7 @@ function Footer() {
 
                   <div className="logo__name">DAT</div>
                 </div>
-                <a className="footer__email" href="mailto:elias@elias-dev.ml">
+                <a className="footer__email" href="mailto:hoang2811dat@gmail.com">
                   hoang2811dat@gmail.com
                 </a>
               </div>
